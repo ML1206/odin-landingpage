@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    flex: 1;
 }
 
 .header {
@@ -34,7 +35,7 @@ body {
 .topbutton {
     background-color: #3882f6;
     border-radius: 12px;
-    border-color: #3882f6;
+    border: 0px;
     padding: 8px 35px;;
     color: #F9FAF8;
     font-size: 18px;
@@ -84,3 +85,49 @@ a,
     color: #F9FAF8;
     flex-shrink: 0;
 }
+
+/* styling for second container starts here */
+
+.secondcontainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.random {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 800;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 175px;
+    height: 275px;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+
