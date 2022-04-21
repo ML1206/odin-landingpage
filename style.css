@@ -197,3 +197,18 @@ a,
 .right {
     border: 1px solid #F9FAF8;
 }
+
+/* styling for fifth section starts here */
+
+.fifthcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 40px;
+}
