@@ -19,6 +19,18 @@ body {
     flex-wrap: wrap;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.listlinks {
+    display: flex;
+    gap: 20px;
+}
+
 .body {
     display:flex;
     justify-content: center;
@@ -28,39 +40,8 @@ body {
     flex-wrap: wrap;
 }
 
-.listlinks {
-    display: flex;
-    gap: 20px;
-}
-
-button {
-    background-color: #3882f6;
-    border-radius: 12px;
-    border: 0px;
-    padding: 8px 35px;;
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 800;
-}
-
-ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-}
-
-a,
-.secondarytext {
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 800;
-    flex-shrink: 0;
+.content {
+    width: 400px;
 }
 
 .maintext {
@@ -69,11 +50,9 @@ a,
     font-weight: 800;
 }
 
-.content {
-    width: 400px;
-}
-
 .secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
     margin-bottom: 10px;
 }
 
@@ -86,6 +65,28 @@ a,
     height: 250px;
     background-color: rgb(153,153,153);
     color: #F9FAF8;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: 0px;
+    padding: 8px 35px;;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 /* styling for second section starts here */
